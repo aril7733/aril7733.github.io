@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Allow: /sitemap.xml
 Sitemap: https://aril7733.github.io/sitemap.xml
