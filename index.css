@@ -1,3 +1,21 @@
 .bg {
     background-color: #A6B07E;
 }
+
+.list-unstyled {
+    list-style: none; /* Remove bullet points */
+    margin: 0 auto;   /* Center <ul> horizontally */
+    margin-left: 10%;
+    display: flex;    /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center <li> horizontally */
+    padding: 0;       /* Remove padding from <ul> */
+}
+
+.list-unstyled li {
+    text-align: left; /* Align text inside <li> to the left */
+    width: 100%;      /* Make <li> span the full container width */
+    max-width: 400px; /* Limit width for better alignment */
+    padding: 0;       /* Remove default padding */
+    margin: 0 auto;   /* Center the <li> within the <ul> */
+}
