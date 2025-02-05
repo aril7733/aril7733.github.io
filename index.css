@@ -19,3 +19,27 @@
     padding: 0;       /* Remove default padding */
     margin: 0 auto;   /* Center the <li> within the <ul> */
 }
+
+.button-link {
+    display: inline-block;
+    background-color: #28a745; /* Vert */
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-link:hover {
+    background-color: #218838; /* Vert plus foncé */
+    transform: scale(1.05);
+}
+
+.button-link:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+}
+    
