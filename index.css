@@ -1,5 +1,5 @@
 .bg {
-    background-color: #BEA7E5;
+    background-color: #5D5F71;
 }
 
 .list-unstyled {
@@ -22,7 +22,7 @@
 
 .button-link {
     display: inline-block;
-    background-color: #BEA7E5;
+    background-color: #5D5F71;
     color: white;
     text-decoration: none;
     padding: 12px 24px;
@@ -34,12 +34,12 @@
 }
 
 .button-link:hover {
-    background-color: #218838; /* Vert plus foncé */
+    background-color: #5D5F71; /* Vert plus foncé */
     transform: scale(1.05);
 }
 
 .button-link:active {
-    background-color: #1e7e34;
+    background-color: #5D5F71;
     transform: scale(0.98);
 }
     
